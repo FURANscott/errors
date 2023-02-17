@@ -1,0 +1,814 @@
+Executing Gradle task: runClient
+Build info: MCreator 2022.3.48217, forge-1.19.2, 64-bit, 6086 MB, Windows 10, JVM 17.0.3, JAVA_HOME: C:\Program Files\Pylo\MCreator\jdk, started on: 2023-02-16-18:09:22
+ 
+> Configure project :
+The code of this workspace uses official obfuscation mappings provided by Mojang. These mappings fall under their associated license you should be fully aware of.
+(c) 2020 Microsoft Corporation. These mappings are provided "as-is" and you bear the risk of using them. You may copy and use the mappings for development purposes,
+but you may not redistribute the mappings complete and unmodified. Microsoft makes no warranties, express or implied, with respect to the mappings provided here.
+Use and modification of this document or the source code (in any form) of Minecraft: Java Edition is governed by the Minecraft End User License Agreement available
+at https://account.mojang.com/documents/minecraft_eula.
+ 
+> Task :compileJava
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:21: error: class OwnerKitCommand is public, should be declared in a file named OwnerKitCommand.java public class OwnerKitCommand {
+  ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:6: error: package net.minecraft.command does not exist import net.minecraft.command.CommandException;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:7: error: package net.minecraft.command does not exist import net.minecraft.command.CommandSource;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:8: error: package net.minecraft.command does not exist import net.minecraft.command.Commands;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:9: error: package net.minecraft.enchantment does not exist import net.minecraft.enchantment.EnchantmentHelper;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:10: error: package net.minecraft.enchantment does not exist import net.minecraft.enchantment.Enchantments;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:11: error: package net.minecraft.entity.player does not exist import net.minecraft.entity.player.PlayerEntity;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:12: error: package net.minecraft.item does not exist import net.minecraft.item.Item;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:13: error: package net.minecraft.item does not exist import net.minecraft.item.ItemStack;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:14: error: cannot find symbol import net.minecraft.nbt.CompoundNBT;
+    ^
+ symbol: class CompoundNBT
+ location: package net.minecraft.nbt
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:15: error: cannot find symbol import net.minecraft.util.Hand;
+    ^
+ symbol: class Hand
+ location: package net.minecraft.util
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:16: error: package net.minecraft.util.text does not exist import net.minecraft.util.text.StringTextComponent;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:17: error: cannot find symbol import net.minecraft.world.World;
+    ^
+ symbol: class World
+ location: package net.minecraft.world
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:22: error: cannot find symbol  public static void register(CommandDispatcher<CommandSource> dispatcher) {
+       ^
+ symbol: class CommandSource
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:30: error: cannot find symbol  private static int giveOwnerKit(CommandContext<CommandSource> context) throws CommandException {
+       ^
+ symbol: class CommandSource
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:30: error: cannot find symbol  private static int giveOwnerKit(CommandContext<CommandSource> context) throws CommandException {
+            ^
+ symbol: class CommandException
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:23: error: cannot find symbol  LiteralArgumentBuilder<CommandSource> builder = Commands.literal("ownerkit")
+     ^
+ symbol: class CommandSource
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:23: error: cannot find symbol  LiteralArgumentBuilder<CommandSource> builder = Commands.literal("ownerkit")
+        ^
+ symbol: variable Commands
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:25: error: cannot find symbol   .then(Commands.argument("player", StringArgumentType.word())
+    ^
+ symbol: variable Commands
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:32: error: cannot find symbol  PlayerEntity player = context.getSource().getServer().getPlayerList().getPlayerByUsername(playerName);
+  ^
+ symbol: class PlayerEntity
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:34: error: cannot find symbol   throw new CommandException(new StringTextComponent("Player not found"));
+    ^
+ symbol: class CommandException
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:34: error: cannot find symbol   throw new CommandException(new StringTextComponent("Player not found"));
+      ^
+ symbol: class StringTextComponent
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+      ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:39: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+       ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:42: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+      ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:45: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+      ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:48: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:50: error: cannot find symbol  ItemStack sword = new ItemStack(Items.NETHERITE_SWORD);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:50: error: cannot find symbol  ItemStack sword = new ItemStack(Items.NETHERITE_SWORD);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:50: error: cannot find symbol  ItemStack sword = new ItemStack(Items.NETHERITE_SWORD);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:51: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+        ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:54: error: cannot find symbol  ItemStack pickaxe = new ItemStack(Items.NETHERITE_PICKAXE);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:54: error: cannot find symbol  ItemStack pickaxe = new ItemStack(Items.NETHERITE_PICKAXE);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:54: error: cannot find symbol  ItemStack pickaxe = new ItemStack(Items.NETHERITE_PICKAXE);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:55: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:57: error: cannot find symbol  CompoundNBT nbt = new CompoundNBT();
+  ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:57: error: cannot find symbol  CompoundNBT nbt = new CompoundNBT();
+     ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:60: error: cannot find symbol  ItemStack axe = new ItemStack(Items.NETHERITE_AXE);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:60: error: cannot find symbol  ItemStack axe = new ItemStack(Items.NETHERITE_AXE);
+    ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:60: error: cannot find symbol  ItemStack axe = new ItemStack(Items.NETHERITE_AXE);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:61: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:63: error: cannot find symbol  nbt = new CompoundNBT();
+   ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:66: error: cannot find symbol  ItemStack shovel = new ItemStack(Items.NETHERITE_SHOVEL);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:66: error: cannot find symbol  ItemStack shovel = new ItemStack(Items.NETHERITE_SHOVEL);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:66: error: cannot find symbol  ItemStack shovel = new ItemStack(Items.NETHERITE_SHOVEL);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:67: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:69: error: cannot find symbol  nbt = new CompoundNBT();
+   ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:72: error: cannot find symbol  ItemStack hoe = new ItemStack(Items.NETHERITE_HOE);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:72: error: cannot find symbol  ItemStack hoe = new ItemStack(Items.NETHERITE_HOE);
+    ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:72: error: cannot find symbol  ItemStack hoe = new ItemStack(Items.NETHERITE_HOE);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:73: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:74: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), hoe);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:74: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), hoe);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+100 errors
+only showing the first 100 errors, of 108 total; use -Xmaxerrs if you would like to see more
+> Task :compileJava FAILED
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 6s
+1 actionable task: 1 executed
+ 
+BUILD FAILED
+Task completed in 11 seconds
+ 
+> Configure project :
+The code of this workspace uses official obfuscation mappings provided by Mojang. These mappings fall under their associated license you should be fully aware of.
+(c) 2020 Microsoft Corporation. These mappings are provided "as-is" and you bear the risk of using them. You may copy and use the mappings for development purposes,
+but you may not redistribute the mappings complete and unmodified. Microsoft makes no warranties, express or implied, with respect to the mappings provided here.
+Use and modification of this document or the source code (in any form) of Minecraft: Java Edition is governed by the Minecraft End User License Agreement available
+at https://account.mojang.com/documents/minecraft_eula.
+ 
+> Task :compileJava
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:21: error: class OwnerKitCommand is public, should be declared in a file named OwnerKitCommand.java public class OwnerKitCommand {
+  ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:6: error: package net.minecraft.command does not exist import net.minecraft.command.CommandException;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:7: error: package net.minecraft.command does not exist import net.minecraft.command.CommandSource;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:8: error: package net.minecraft.command does not exist import net.minecraft.command.Commands;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:9: error: package net.minecraft.enchantment does not exist import net.minecraft.enchantment.EnchantmentHelper;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:10: error: package net.minecraft.enchantment does not exist import net.minecraft.enchantment.Enchantments;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:11: error: package net.minecraft.entity.player does not exist import net.minecraft.entity.player.PlayerEntity;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:12: error: package net.minecraft.item does not exist import net.minecraft.item.Item;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:13: error: package net.minecraft.item does not exist import net.minecraft.item.ItemStack;
+    ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:14: error: cannot find symbol import net.minecraft.nbt.CompoundNBT;
+    ^
+ symbol: class CompoundNBT
+ location: package net.minecraft.nbt
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:15: error: cannot find symbol import net.minecraft.util.Hand;
+    ^
+ symbol: class Hand
+ location: package net.minecraft.util
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:16: error: package net.minecraft.util.text does not exist import net.minecraft.util.text.StringTextComponent;
+     ^
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:17: error: cannot find symbol import net.minecraft.world.World;
+    ^
+ symbol: class World
+ location: package net.minecraft.world
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:22: error: cannot find symbol  public static void register(CommandDispatcher<CommandSource> dispatcher) {
+       ^
+ symbol: class CommandSource
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:30: error: cannot find symbol  private static int giveOwnerKit(CommandContext<CommandSource> context) throws CommandException {
+       ^
+ symbol: class CommandSource
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:30: error: cannot find symbol  private static int giveOwnerKit(CommandContext<CommandSource> context) throws CommandException {
+            ^
+ symbol: class CommandException
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:23: error: cannot find symbol  LiteralArgumentBuilder<CommandSource> builder = Commands.literal("ownerkit")
+     ^
+ symbol: class CommandSource
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:23: error: cannot find symbol  LiteralArgumentBuilder<CommandSource> builder = Commands.literal("ownerkit")
+        ^
+ symbol: variable Commands
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:25: error: cannot find symbol   .then(Commands.argument("player", StringArgumentType.word())
+    ^
+ symbol: variable Commands
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:32: error: cannot find symbol  PlayerEntity player = context.getSource().getServer().getPlayerList().getPlayerByUsername(playerName);
+  ^
+ symbol: class PlayerEntity
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:34: error: cannot find symbol   throw new CommandException(new StringTextComponent("Player not found"));
+    ^
+ symbol: class CommandException
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:34: error: cannot find symbol   throw new CommandException(new StringTextComponent("Player not found"));
+      ^
+ symbol: class StringTextComponent
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:38: error: cannot find symbol  ItemStack helmet = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 5);
+      ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:39: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:40: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), helmet);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:41: error: cannot find symbol  ItemStack chestplate = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 8);
+       ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:42: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:43: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), chestplate);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:44: error: cannot find symbol  ItemStack leggings = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 7);
+      ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:45: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:46: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), leggings);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+         ^
+ symbol: variable Blocks
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:47: error: cannot find symbol  ItemStack boots = new ItemStack(Item.getItemFromBlock(Blocks.NETHERITE_BLOCK), 4);
+      ^
+ symbol: variable Item
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:48: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:49: error: cannot find symbol   ImmutableMap.of(Enchantments.PROTECTION, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), boots);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:50: error: cannot find symbol  ItemStack sword = new ItemStack(Items.NETHERITE_SWORD);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:50: error: cannot find symbol  ItemStack sword = new ItemStack(Items.NETHERITE_SWORD);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:50: error: cannot find symbol  ItemStack sword = new ItemStack(Items.NETHERITE_SWORD);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:51: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+        ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:52: error: cannot find symbol   ImmutableMap.of(Enchantments.SHARPNESS, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), sword);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:54: error: cannot find symbol  ItemStack pickaxe = new ItemStack(Items.NETHERITE_PICKAXE);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:54: error: cannot find symbol  ItemStack pickaxe = new ItemStack(Items.NETHERITE_PICKAXE);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:54: error: cannot find symbol  ItemStack pickaxe = new ItemStack(Items.NETHERITE_PICKAXE);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:55: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:56: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), pickaxe);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:57: error: cannot find symbol  CompoundNBT nbt = new CompoundNBT();
+  ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:57: error: cannot find symbol  CompoundNBT nbt = new CompoundNBT();
+     ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:60: error: cannot find symbol  ItemStack axe = new ItemStack(Items.NETHERITE_AXE);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:60: error: cannot find symbol  ItemStack axe = new ItemStack(Items.NETHERITE_AXE);
+    ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:60: error: cannot find symbol  ItemStack axe = new ItemStack(Items.NETHERITE_AXE);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:61: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:62: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), axe);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:63: error: cannot find symbol  nbt = new CompoundNBT();
+   ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:66: error: cannot find symbol  ItemStack shovel = new ItemStack(Items.NETHERITE_SHOVEL);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:66: error: cannot find symbol  ItemStack shovel = new ItemStack(Items.NETHERITE_SHOVEL);
+     ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:66: error: cannot find symbol  ItemStack shovel = new ItemStack(Items.NETHERITE_SHOVEL);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:67: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+             ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:68: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), shovel);
+   ^
+ symbol: variable ImmutableMap
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:69: error: cannot find symbol  nbt = new CompoundNBT();
+   ^
+ symbol: class CompoundNBT
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:72: error: cannot find symbol  ItemStack hoe = new ItemStack(Items.NETHERITE_HOE);
+  ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:72: error: cannot find symbol  ItemStack hoe = new ItemStack(Items.NETHERITE_HOE);
+    ^
+ symbol: class ItemStack
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:72: error: cannot find symbol  ItemStack hoe = new ItemStack(Items.NETHERITE_HOE);
+      ^
+ symbol: variable Items
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:73: error: cannot find symbol  EnchantmentHelper.setEnchantments(
+  ^
+ symbol: variable EnchantmentHelper
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:74: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), hoe);
+     ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+C:\Users\Tyrell\MCreatorWorkspaces\galaxymodset\src\main\java\net\mcreator\galaxymodset\procedures\Part1Procedure.java:74: error: cannot find symbol   ImmutableMap.of(Enchantments.EFFICIENCY, 10, Enchantments.UNBREAKING, 10, Enchantments.MENDING, 1), hoe);
+         ^
+ symbol: variable Enchantments
+ location: class OwnerKitCommand
+100 errors
+only showing the first 100 errors, of 108 total; use -Xmaxerrs if you would like to see more
+> Task :compileJava FAILED
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 18s
+1 actionable task: 1 executed
+ 
+BUILD FAILED
+Task completed in 22 seconds
